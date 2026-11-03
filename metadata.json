@@ -1,0 +1,6 @@
+{
+  "name": "WhatsApp AI Manager & Task Assistant",
+  "description": "Administrador de WhatsApp para Android (Personal y Business) sin Meta API ni tokens. Vinculación directa por QR/código de dispositivo, auto-respuestas y extractor de tareas con IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

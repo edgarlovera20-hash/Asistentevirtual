@@ -1,0 +1,43 @@
+{
+  "id": "/",
+  "name": "WhatsApp AI Manager",
+  "short_name": "WA Manager",
+  "description": "Administrador inteligente de WhatsApp para Android: responde autónomamente y gestiona tareas y recordatorios con IA.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b141a",
+  "theme_color": "#1f2c34",
+  "categories": ["productivity", "utilities", "business"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ver Tareas Pendientes",
+      "short_name": "Tareas",
+      "description": "Accede a tus deberes y compromisos registrados",
+      "url": "/?tab=tasks",
+      "icons": [{ "src": "/icon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Simulador en Vivo",
+      "short_name": "Simulador",
+      "description": "Prueba auto-respuestas y extracción de tareas",
+      "url": "/?tab=simulator",
+      "icons": [{ "src": "/icon.svg", "sizes": "96x96" }]
+    }
+  ]
+}
